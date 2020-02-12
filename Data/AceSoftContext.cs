@@ -26,7 +26,7 @@ namespace AceSoftServices_Api.Data
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=acesoft-db.database.windows.net,1433;Initial Catalog=acesoft;Persist Security Info=False;User=SystemAdmin;Password=Justdoit55#");
+                optionsBuilder.UseSqlServer("Data Source=acesoft-db.database.windows.net,1433;Initial Catalog=acesoft;Persist Security Info=False;User=SystemAdmin;Password=*******");
             }
         }
 
