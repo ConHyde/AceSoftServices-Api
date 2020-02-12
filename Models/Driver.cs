@@ -39,6 +39,7 @@ namespace AceSoftServices_Api.Models
         public bool Trunking { get; set; }
         public bool? Prospect { get; set; }
         public string Notes { get; set; }
+        public int? LoginId { get; set; }
 
         public virtual Employee Employee { get; set; }
     }

@@ -13,5 +13,6 @@ namespace AceSoftServices_Api.Models
         public decimal Mobile { get; set; }
         public decimal Telephone { get; set; }
         public bool Prospect { get; set; }
+        public int? LoginId { get; set; }
     }
 }
